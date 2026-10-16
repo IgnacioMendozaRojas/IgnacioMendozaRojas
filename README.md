@@ -33,9 +33,10 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**counterparty-credit-risk**](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Monte Carlo engine for derivatives exposure: Hull-White rates and FX simulation, netting and collateral (CSA), EE / PFE / Basel EEPE, and CVA / DVA. Validated against closed-form results. | Python · NumPy · pytest · CI |
 | [**cmf-ffmm-etl**](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) | Monthly pipeline that scrapes the holdings of every Chilean mutual fund from the regulator's portal (no API), runs 7 quality gates and loads them idempotently. History since 2008. | Python · pandas · SQLAlchemy · pytest · CI |
 
-**Currently building:** a counterparty credit risk engine (Monte Carlo PFE → CVA/DVA).
+**Currently building:** a liquidity risk toolkit (LCR projections, intraday liquidity, stress testing).
 
 ## 🛠️ Toolkit
 
