@@ -26,7 +26,7 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 | **Counterparty credit risk** | Monte Carlo exposure (EE, PFE), netting and collateral, CVA / DVA |
 | **Liquidity risk** | Deposit decay, LCR / NSFR projections, cash-flow stress testing, haircuts under stress |
 | **Forecasting** | ARIMA and time-series models for credit line usage and intraday liquidity |
-| **Corporate finance** | Financial planning, P&L and cash-flow models, CAPEX evaluation (NPV, IRR, payback) |
+| **Corporate finance** | Financial planning, P&L and cash-flow models, CAPEX evaluation (NPV, IRR, payback), unit economics |
 | **Data & automation** | Python ETL pipelines, web scraping without APIs, SQL, Power BI |
 
 ## 📂 Projects
@@ -34,9 +34,10 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 | Project | What it does | Stack |
 |---|---|---|
 | [**counterparty-credit-risk**](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Monte Carlo engine for derivatives exposure: Hull-White rates and FX simulation, netting and collateral (CSA), EE / PFE / Basel EEPE, and CVA / DVA. Validated against closed-form results. | Python · NumPy · pytest · CI |
+| [**restaurant-analytics**](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Menu engineering, yield-adjusted ingredient usage and break-even on real operating data from a restaurant I ran in 2023. Found a 17% vs 36% gap between recipe and actual food cost. | Python · pandas · matplotlib |
 | [**cmf-ffmm-etl**](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) | Monthly pipeline that scrapes the holdings of every Chilean mutual fund from the regulator's portal (no API), runs 7 quality gates and loads them idempotently. History since 2008. | Python · pandas · SQLAlchemy · pytest · CI |
 
-**Currently building:** a liquidity risk toolkit (LCR projections, intraday liquidity, stress testing).
+**Currently building:** an equity valuation of SQM (DCF + lithium price scenarios), revisiting the company behind my CFA Research Challenge win.
 
 ## 🛠️ Toolkit
 
