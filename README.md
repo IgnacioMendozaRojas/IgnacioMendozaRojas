@@ -33,12 +33,13 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**equity-research-engine**](https://github.com/IgnacioMendozaRojas/equity-research-engine) | Reusable valuation engine that turns public filings into a CFA-style research report: segment volume × price model, royalties and state take, DCF + residual income, Monte Carlo and a backtest. First case is SQM, revisiting my CFA Research Challenge company: an October 2026 report plus the October 2020 valuation held against what happened. | Python · NumPy · pandas · SEC XBRL · pytest · CI |
 | [**counterparty-credit-risk**](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Monte Carlo engine for derivatives exposure: Hull-White rates and FX simulation, netting and collateral (CSA), EE / PFE / Basel EEPE, and CVA / DVA. Validated against closed-form results. | Python · NumPy · pytest · CI |
 | [**restaurant-analytics**](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Menu engineering, yield-adjusted ingredient usage and break-even on real operating data from a restaurant I ran in 2023. Found a 17% vs 36% gap between recipe and actual food cost. | Python · pandas · matplotlib |
 | [**cmf-ffmm-etl**](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) | Monthly pipeline that scrapes the holdings of every Chilean mutual fund from the regulator's portal (no API), runs 7 quality gates and loads them idempotently. History since 2008. | Python · pandas · SQLAlchemy · pytest · CI |
 | [**db-migration-validator**](https://github.com/IgnacioMendozaRojas/db-migration-validator) | Proves a database migration lost nothing: compares structure, row counts, order-independent content fingerprints and grants between source and target, across Oracle, SQL Server, PostgreSQL and MySQL. Fails the pipeline on any critical finding. | Python · SQLAlchemy · PostgreSQL · pytest · CI |
 
-**Currently building:** an equity valuation of SQM (DCF + lithium price scenarios), revisiting the company behind my CFA Research Challenge win.
+**Currently building:** Chilean CMF filings and news feeds for the equity research engine, so more companies can be added.
 
 ## 🛠️ Toolkit
 
