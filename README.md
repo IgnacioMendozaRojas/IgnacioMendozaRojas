@@ -1,7 +1,7 @@
 <h1 align="center">Ignacio Mendoza Rojas</h1>
 
 <p align="center">
-  <b>Financial Risk · Quantitative Modelling · Corporate Finance</b><br/>
+  <b>Corporate Finance · Financial Risk Management · Quantitative Modelling</b><br/>
   Barcelona, Spain
 </p>
 
@@ -11,22 +11,28 @@
 
 ---
 
-I'm a finance professional with **5 years of experience in banking and corporate finance**.
-At a Chilean bank I built the models behind counterparty and liquidity risk: **Potential
-Future Exposure** for derivatives, **deposit decay** for liquidity analysis, **CVA/DVA**
-sensitivities, **ILAAP** projections under Basel III, and the data pipelines that feed them.
+I'm a finance professional with **5 years of experience in banking and corporate finance**,
+working on investment evaluation, financial planning, derivatives and credit risk.
 
-This GitHub is where I rebuild that kind of work **from public theory and public or synthetic
-data**, as clean, tested, documented code. No proprietary code, data or parameters.
+As **Financial Risk & Modelling Analyst at Banco Ripley** (Chile), I build the models behind
+counterparty and liquidity risk: stochastic **Potential Future Exposure** for derivatives,
+**deposit balance decay**, **CVA/DVA** sensitivities, automated **ILAAP** projections under
+Basel III, and the Python pipelines and Power BI dashboards that feed and monitor them.
+In 2023 I spent a period at **Red Interclínica**, where I consolidated and automated financial
+planning for four clinics, monitored €11M of capex and assessed projects on the investment committee.
+
+This GitHub is where I rebuild that kind of work **from public theory and real data**
+(public filings, regulator files, or my own anonymised records), as clean, tested,
+documented code. No employer code, data or parameters.
 
 ## 🔭 What I work on
 
 | Area | Topics |
 |---|---|
-| **Counterparty credit risk** | Monte Carlo exposure (EE, PFE), netting and collateral, CVA / DVA |
+| **Counterparty credit risk** | Monte Carlo exposure (EE, PFE), netting and collateral, derivatives valuation, CVA / DVA |
 | **Liquidity risk** | Deposit decay, LCR / NSFR projections, cash-flow stress testing, haircuts under stress |
 | **Forecasting** | ARIMA and time-series models for credit line usage and intraday liquidity |
-| **Corporate finance** | Financial planning, P&L and cash-flow models, CAPEX evaluation (NPV, IRR, payback), unit economics |
+| **Corporate finance** | Equity valuation, financial planning, P&L and cash-flow models, CAPEX evaluation (NPV, IRR, payback), unit economics |
 | **Data & automation** | Python ETL pipelines, web scraping without APIs, SQL, Power BI |
 
 ## 📂 Projects
@@ -53,13 +59,22 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 ![Excel](https://img.shields.io/badge/Excel%20·%20VBA%20·%20Power%20Query-217346?logo=microsoftexcel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
-## 🎓 Background
+## 💼 Experience
 
-- **MSc in Business Research**, Universitat de Barcelona (2025 – 2027). Thesis on AI use and
-  labour cost stickiness in Spanish firms.
+| Period | Role |
+|---|---|
+| 2023 – present | **Financial Risk & Modelling Analyst**, Banco Ripley (Chile) |
+| 2023 | **Strategy & Investment Analyst**, Red Interclínica (Chile) |
+| 2021 – 2023 | **Financial Risk Analyst**, Banco Ripley (Chile) |
+
+## 🎓 Education
+
+- **MSc in Business Research**, Universitat de Barcelona (2025 – 2027). Thesis: *Artificial
+  Intelligence Use and Labour Cost Stickiness: Evidence from Spanish Firms* (8.5/10).
 - **MSc in Finance**, Universidad Adolfo Ibáñez (2020 – 2021), CFA Institute affiliated.
 - **BSc in Business Administration and Economics**, Universidad Adolfo Ibáñez (2016 – 2019).
 - 🏆 **Winner, CFA Institute Research Challenge, South America Regional Final** (2020 – 2021).
+- **Languages:** Spanish (native), English (TOEFL iBT, B2).
 
 ## 📫 Get in touch
 
