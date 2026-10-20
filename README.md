@@ -40,7 +40,7 @@ data**, as clean, tested, documented code. No proprietary code, data or paramete
 | [**cmf-ffmm-etl**](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) | Monthly pipeline that scrapes the holdings of every Chilean mutual fund from the regulator's portal (no API), runs 7 quality gates and loads them idempotently. History since 2008. | Python · pandas · SQLAlchemy · pytest · CI |
 | [**db-migration-validator**](https://github.com/IgnacioMendozaRojas/db-migration-validator) | Proves a database migration lost nothing: compares structure, row counts, order-independent content fingerprints and grants between source and target, across Oracle, SQL Server, PostgreSQL and MySQL. Fails the pipeline on any critical finding. | Python · SQLAlchemy · PostgreSQL · pytest · CI |
 
-**Currently building:** Chilean CMF filings and news feeds for the equity research engine, so more companies can be added.
+**Currently building:** a second company in the equity research engine, valued from CMF filings only.
 
 ## 🛠️ Toolkit
 
