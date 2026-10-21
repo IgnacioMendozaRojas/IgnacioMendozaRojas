@@ -12,42 +12,24 @@
 
 ---
 
-I'm a finance professional with **5 years of experience in banking and corporate finance**,
-working on investment evaluation, financial planning, derivatives and credit risk.
+I build **risk and valuation models, and the data infrastructure that feeds them**: 5 years in
+banking and corporate finance, today as **Financial Risk & Modelling Analyst at Banco Ripley** (Chile).
 
-As **Financial Risk & Modelling Analyst at Banco Ripley** (Chile), I build the models behind
-counterparty and liquidity risk: stochastic **Potential Future Exposure** for derivatives,
-**deposit balance decay**, **CVA/DVA** sensitivities, automated **ILAAP** projections under
-Basel III, and the Python pipelines and Power BI dashboards that feed and monitor them.
-In 2023 I spent a period at **Red Interclínica**, where I consolidated and automated financial
-planning for four clinics, monitored €11M of capex and assessed projects on the investment committee.
+Each repository below is evidence of one competency: where I use it at work, the tool I rebuilt
+from public theory and real data, and what it found. No employer code, data or parameters.
 
-This GitHub is where I rebuild that kind of work **from public theory and real data**
-(public filings, regulator files, or my own anonymised records), as clean, tested,
-documented code. No employer code, data or parameters.
+## 🧭 Competencies and evidence
 
-## 🔭 What I work on
+| Competency | Where I use it | Evidence | Result |
+|---|---|---|---|
+| **Counterparty credit risk & derivatives** | PFE models behind counterparty limits; CVA/DVA sensitivities (Banco Ripley) | [counterparty-credit-risk](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Daily margining cuts peak PFE by 70%; netting cuts CVA by 26%; every pricer checked against closed forms |
+| **Liquidity risk & funding** | Deposit decay, ILAAP projections under Basel III, cash-flow stress tests (Banco Ripley) | [chile-mutual-funds-analytics](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | Six banks take 78% of the CLP 38.5 trillion funds lend to banks; observed run-off of 25% in a month, 63% in a year; updated monthly |
+| **Credit risk & financial statement analysis** | Competitive benchmarking of Chilean clinic groups (Red Interclínica, 2023) | [chile-clinics-benchmark](https://github.com/IgnacioMendozaRojas/chile-clinics-benchmark) | Through the Isapre crisis, Clínica Las Condes' credit-loss allowance rose from 12.6% to 53.8% of receivables; rebuilt quarterly from CMF filings |
+| **Equity valuation & investment analysis** | CFA Institute Research Challenge (South America regional winner, with my team); investment committee (Red Interclínica) | [equity-research-engine](https://github.com/IgnacioMendozaRojas/equity-research-engine) | SQM's price implies lithium at about US$25,000/t long run vs a US$15,000/t deck; the 2020 valuation backtested against what happened |
+| **Data engineering & automation** | Fund and portfolio data collection with Python and web scraping; database migration controls (Banco Ripley) | [cmf-ffmm-etl](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) · [db-migration-validator](https://github.com/IgnacioMendozaRojas/db-migration-validator) | 93 months of regulator files rebuilt unattended; quality gates that caught real data errors |
+| **Corporate finance & unit economics** | FP&A for four clinics, €11M capex (Red Interclínica); running a restaurant (2023) | [restaurant-analytics](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Recipes said 17% food cost, purchases said 36%: break-even 30% higher than planned |
 
-| Area | Topics |
-|---|---|
-| **Counterparty credit risk** | Monte Carlo exposure (EE, PFE), netting and collateral, derivatives valuation, CVA / DVA |
-| **Liquidity risk** | Deposit decay, LCR / NSFR projections, cash-flow stress testing, haircuts under stress |
-| **Forecasting** | ARIMA and time-series models for credit line usage and intraday liquidity |
-| **Corporate finance** | Equity valuation, financial planning, P&L and cash-flow models, CAPEX evaluation (NPV, IRR, payback), unit economics |
-| **Data & automation** | Python ETL pipelines, web scraping without APIs, SQL, Power BI |
-
-## 📂 Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| [**equity-research-engine**](https://github.com/IgnacioMendozaRojas/equity-research-engine) | Reusable valuation engine that turns public filings into a CFA-style research report: segment volume × price model, royalties and state take, DCF + residual income, Monte Carlo and a backtest. First case is SQM, revisiting my CFA Research Challenge company: an October 2026 report plus the October 2020 valuation held against what happened. | Python · NumPy · pandas · SEC XBRL · pytest · CI |
-| [**counterparty-credit-risk**](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Monte Carlo engine for derivatives exposure: Hull-White rates and FX simulation, netting and collateral (CSA), EE / PFE / Basel EEPE, and CVA / DVA. Validated against closed-form results. | Python · NumPy · pytest · CI |
-| [**restaurant-analytics**](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Menu engineering, yield-adjusted ingredient usage and break-even on real operating data from a restaurant I ran in 2023. Found a 17% vs 36% gap between recipe and actual food cost. | Python · pandas · matplotlib |
-| [**chile-mutual-funds-analytics**](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | What Chilean mutual funds hold, monthly 2019-2026, from 3.3 million CMF portfolio records: the 2021-22 shift from bank deposits to Central Bank paper, funds as a concentrated source of bank funding, duration through the rate cycle, and how little FX exposure is hedged. | Python · pandas · CMF data · pytest · CI |
-| [**cmf-ffmm-etl**](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) | Monthly pipeline that scrapes the holdings of every Chilean mutual fund from the regulator's portal (no API), runs 7 quality gates and loads them idempotently. History since 2008. | Python · pandas · SQLAlchemy · pytest · CI |
-| [**db-migration-validator**](https://github.com/IgnacioMendozaRojas/db-migration-validator) | Proves a database migration lost nothing: compares structure, row counts, order-independent content fingerprints and grants between source and target, across Oracle, SQL Server, PostgreSQL and MySQL. Fails the pipeline on any critical finding. | Python · SQLAlchemy · PostgreSQL · pytest · CI |
-
-**Currently building:** a second company in the equity research engine, valued from CMF filings only.
+Findings are kept current by scheduled workflows: mutual funds monthly, clinics twice a month, SQM weekly.
 
 ## 🛠️ Toolkit
 
