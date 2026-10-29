@@ -38,7 +38,7 @@ The same data work, applied to research questions in corporate governance and co
 | Project | Question | Data | Status |
 |---|---|---|---|
 | [ownership-and-boards](https://github.com/IgnacioMendozaRojas/ownership-and-boards) | How do combinations of owners (groups, families, foundations, the State, pension funds, institutions) translate into board seats in two concentrated-ownership markets, Chile and Spain? | CMF company pages and CNMV governance reports, parsed from HTML and PDF | Pilot: 30 Chilean and 7 Spanish firms. Fundación Mapfre holds 70% of Mapfre's votes but 1 of 15 seats as a dominical director; Naturgy's five investors, none above 26%, hold 11 of 15 |
-| *Artificial Intelligence Use and Labour Cost Stickiness: Evidence from Spanish Firms* | Does sectoral AI use change how labour costs respond when sales fall (cost stickiness)? | Orbis and SABI firm panels (licensed, not redistributed) | MSc thesis, 8.5/10. Code in a private repository, available on request; it runs on synthetic data of the same format |
+| *Artificial Intelligence Use and Labour Cost Stickiness: Evidence from Spanish Firms* | Does AI use change how labour costs respond when sales fall (cost stickiness)? | Orbis and SABI firm panels (licensed, not redistributed) | MSc thesis, 8.5/10. Code in a private repository, available on request; it runs on synthetic data of the same format |
 
 ## 🛠️ Toolkit
 
