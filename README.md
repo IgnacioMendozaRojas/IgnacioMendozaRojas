@@ -23,13 +23,13 @@ from public theory and real data, and what it found. No employer code, data or p
 | Competency | Where I use it | Evidence | Result |
 |---|---|---|---|
 | **Counterparty credit risk & derivatives** | PFE models behind counterparty limits; CVA/DVA sensitivities (Banco Ripley) | [counterparty-credit-risk](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Daily margining cuts peak PFE by 70%; netting cuts CVA by 26%; every pricer checked against closed forms |
-| **Liquidity risk & funding** | Deposit decay, ILAAP projections under Basel III, cash-flow stress tests (Banco Ripley) | [chile-mutual-funds-analytics](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | Six banks take 78% of the CLP 38.5 trillion funds lend to banks; observed run-off of 25% in a month, 63% in a year; updated monthly |
+| **Liquidity risk & funding** | Deposit decay, ILAAP projections under Basel III, cash-flow stress tests (Banco Ripley) | [chile-bank-liquidity](https://github.com/IgnacioMendozaRojas/chile-bank-liquidity) · [chile-mutual-funds-analytics](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | Banks passed on 69% of the 2021-22 rate hikes to term deposits but 62% of the cuts; demand deposits ran 20% in a year after the pandemic surge; mutual funds, 15% of term deposits, withdrew 63% in a year |
 | **Credit risk & financial statement analysis** | Competitive benchmarking of Chilean clinic groups (Red Interclínica, 2023) | [chile-clinics-benchmark](https://github.com/IgnacioMendozaRojas/chile-clinics-benchmark) | Through the Isapre crisis, Clínica Las Condes' credit-loss allowance rose from 12.6% to 53.8% of receivables; rebuilt quarterly from CMF filings |
 | **Equity valuation & investment analysis** | CFA Institute Research Challenge (South America regional winner, with my team); investment committee (Red Interclínica) | [equity-research-engine](https://github.com/IgnacioMendozaRojas/equity-research-engine) | SQM's price implies lithium at about US$25,000/t long run vs a US$15,000/t deck; the 2020 valuation backtested against what happened |
 | **Data engineering & automation** | Fund and portfolio data collection with Python and web scraping; database migration controls (Banco Ripley) | [cmf-ffmm-etl](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) · [db-migration-validator](https://github.com/IgnacioMendozaRojas/db-migration-validator) | 93 months of regulator files rebuilt unattended; quality gates that caught real data errors |
 | **Corporate finance & unit economics** | FP&A for four clinics, €11M capex (Red Interclínica); running a restaurant (2023) | [restaurant-analytics](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Recipes said 17% food cost, purchases said 36%: break-even 30% higher than planned |
 
-Findings are kept current by scheduled workflows: mutual funds monthly, clinics twice a month, SQM weekly.
+Findings are kept current by scheduled workflows: bank liquidity and mutual funds monthly, clinics twice a month, SQM weekly.
 
 ## 🛠️ Toolkit
 
