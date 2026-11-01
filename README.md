@@ -64,11 +64,16 @@ The same data work, applied to research questions in corporate governance, busin
 ## 🎓 Education
 
 - **MSc in Business Research**, Universitat de Barcelona (2025 – 2027). Thesis: *Artificial
-  Intelligence Use and Labour Cost Stickiness: Evidence from Spanish Firms* (8.5/10).
+  Intelligence Use and Labour Cost Stickiness: Evidence from Spanish Firms* (8.5/10): Orbis and
+  SABI firm panels, fixed effects, wild cluster bootstrap for inference with few clusters.
 - **MSc in Finance**, Universidad Adolfo Ibáñez (2020 – 2021), CFA Institute affiliated.
 - **BSc in Business Administration and Economics**, Universidad Adolfo Ibáñez (2016 – 2019).
 - 🏆 **Winner, CFA Institute Research Challenge, South America Regional Final** (2020 – 2021).
-- **Languages:** Spanish (native), English (B2–C1).
+- **Methods:** panel econometrics (fixed effects, clustered and wild-bootstrap inference),
+  binary-choice models, time series, Monte Carlo simulation.
+- **Tools:** Python (pandas, statsmodels, NumPy, matplotlib), SQL, Git and GitHub Actions; Stata
+  in coursework.
+- **Languages:** Spanish (native), English (B2, June 2025).
 
 ## 📫 Get in touch
 
