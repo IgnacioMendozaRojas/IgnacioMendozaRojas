@@ -22,11 +22,11 @@ from public theory and real data, and what it found. No employer code, data or p
 
 | Competency | Where I use it | Evidence | Result |
 |---|---|---|---|
-| **Counterparty credit risk & derivatives** | PFE models behind counterparty limits; CVA/DVA sensitivities (Banco Ripley) | [counterparty-credit-risk](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | Daily margining cuts peak PFE by 70%; netting cuts CVA by 26%; every pricer checked against closed forms |
-| **Liquidity risk & funding** | Deposit decay, ILAAP projections under Basel III, cash-flow stress tests (Banco Ripley) | [chile-bank-liquidity](https://github.com/IgnacioMendozaRojas/chile-bank-liquidity) · [chile-mutual-funds-analytics](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | Banks passed on 69% of the 2021-22 rate hikes to term deposits but 62% of the cuts; demand deposits ran 20% in a year after the pandemic surge; mutual funds, 15% of term deposits, withdrew 63% in a year |
+| **Counterparty credit risk & derivatives** | PFE models behind counterparty limits; CVA/DVA sensitivities (Banco Ripley) | [counterparty-credit-risk](https://github.com/IgnacioMendozaRojas/counterparty-credit-risk) | A 20-day margin period adds 44% to CVA but 5% to peak PFE: the peak sits on a settlement date; every pricer checked against closed forms |
+| **Liquidity risk & funding** | Deposit decay, ILAAP projections under Basel III, cash-flow stress tests (Banco Ripley) | [chile-bank-liquidity](https://github.com/IgnacioMendozaRojas/chile-bank-liquidity) · [chile-mutual-funds-analytics](https://github.com/IgnacioMendozaRojas/chile-mutual-funds-analytics) | Rate hikes kept reaching deposit costs after the last move, cuts did not (bank-level gap +0.06, 95% CI 0.02–0.09); demand deposits ran 20% in a year after the pandemic surge |
 | **Credit risk & financial statement analysis** | Competitive benchmarking of Chilean clinic groups (Red Interclínica, 2023) | [chile-clinics-benchmark](https://github.com/IgnacioMendozaRojas/chile-clinics-benchmark) | Through the Isapre crisis, Clínica Las Condes' credit-loss allowance rose from 12.6% to 53.8% of receivables; rebuilt quarterly from CMF filings |
 | **Equity valuation & investment analysis** | CFA Institute Research Challenge (South America regional winner, with my team); investment committee (Red Interclínica) | [equity-research-engine](https://github.com/IgnacioMendozaRojas/equity-research-engine) | SQM's price implies lithium at about US$25,000/t long run vs a US$15,000/t deck; the 2020 valuation backtested against what happened |
-| **Data engineering & automation** | Fund and portfolio data collection with Python and web scraping; database migration controls (Banco Ripley) | [cmf-ffmm-etl](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) · [db-migration-validator](https://github.com/IgnacioMendozaRojas/db-migration-validator) | 93 months of regulator files rebuilt unattended; quality gates that caught real data errors |
+| **Data engineering & automation** | Fund and portfolio data collection with Python and web scraping; database migration controls (Banco Ripley) | [cmf-ffmm-etl](https://github.com/IgnacioMendozaRojas/cmf-ffmm-etl) · [db-migration-validator](https://github.com/IgnacioMendozaRojas/db-migration-validator) | One forward filed 1,000x too large would have shown the funds' FX hedge at −150% instead of 16%; caught and rescaled, 93 months rebuilt unattended |
 | **Corporate finance & unit economics** | FP&A for four clinics, €11M capex (Red Interclínica); running a restaurant (2023) | [restaurant-analytics](https://github.com/IgnacioMendozaRojas/restaurant-analytics) | Recipes said 17% food cost, purchases said 36%: break-even 30% higher than planned |
 
 Findings are kept current by scheduled workflows: bank liquidity and mutual funds monthly, clinics twice a month, SQM weekly.
@@ -68,7 +68,7 @@ The same data work, applied to research questions in corporate governance, busin
 - **MSc in Finance**, Universidad Adolfo Ibáñez (2020 – 2021), CFA Institute affiliated.
 - **BSc in Business Administration and Economics**, Universidad Adolfo Ibáñez (2016 – 2019).
 - 🏆 **Winner, CFA Institute Research Challenge, South America Regional Final** (2020 – 2021).
-- **Languages:** Spanish (native), English (TOEFL iBT, B2).
+- **Languages:** Spanish (native), English (B2–C1).
 
 ## 📫 Get in touch
 
