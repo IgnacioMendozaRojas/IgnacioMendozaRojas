@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://ignaciomendozarojas.github.io"><img src="https://img.shields.io/badge/Findings-ignaciomendozarojas.github.io-1f63b8" alt="Findings page"/></a>
   <a href="https://www.linkedin.com/in/ignaciomendozarojas"><img src="https://img.shields.io/badge/LinkedIn-ignaciomendozarojas-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://orcid.org/0009-0002-9957-0224"><img src="https://img.shields.io/badge/ORCID-0009--0002--9957--0224-A6CE39?logo=orcid&logoColor=white" alt="ORCID"/></a>
 </p>
 
 ---
